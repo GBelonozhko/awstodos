@@ -1,0 +1,5 @@
+type Todo @model @auth([{allow:owner} {allow: public, operations:[read]} {allow: private, operations:[read]}]){
+  id: ID!
+  name: String!
+  description: String
+}

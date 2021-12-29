@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "awstodos",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authawstodos7d20215b",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

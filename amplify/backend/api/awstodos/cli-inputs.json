@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "awstodos",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/home/gregory/WebDevProjects/todoAWS/awstodos/amplify/backend/api/awstodos/schema.graphql",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authawstodos7d20215b"
+    }
+  }
+}
