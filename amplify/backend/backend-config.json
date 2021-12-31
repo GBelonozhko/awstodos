@@ -39,7 +39,16 @@
               "userPoolId": "authawstodos7d20215b"
             }
           },
-          "additionalAuthenticationProviders": []
+          "additionalAuthenticationProviders": [
+            {
+              "authenticationType": "API_KEY",
+              "apiKeyConfig": {
+                "apiKeyExpirationDays": 7,
+                "apiKeyExpirationDate": "2022-01-05T23:10:26.811Z",
+                "description": "awstodos"
+              }
+            }
+          ]
         }
       }
     }
